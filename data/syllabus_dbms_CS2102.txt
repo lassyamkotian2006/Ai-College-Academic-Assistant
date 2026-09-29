@@ -1,0 +1,6 @@
+DATABASE MANAGEMENT SYSTEMS (Course Code: CS2102-1) - 4th Sem CSE
+Course Type: PCC | L:T:P: 3:0:0 | Credits: 03 | Total Hours: 40 | CIE + SEE: 50 + 50
+- UNIT-I (15 Hours): Databases & Users, Three-Schema Architecture & Data Independence, ER Model (Entities, Attributes, Keys, Relationships, Structural Constraints, Weak Entities, ER-to-Relational Mapping), Relational Model Constraints, Relational Algebra (SELECT, PROJECT, Set Operations, JOIN, DIVISION).
+- UNIT-II (15 Hours): SQL Data Definition, Constraints, Basic & Complex Retrieval Queries, INSERT/DELETE/UPDATE, Assertions, Triggers, Views, Functional Dependencies, Normalization (1NF, 2NF, 3NF, BCNF), Minimal Cover, Relational Decompositions.
+- UNIT-III (10 Hours): Storage & File Organizations, Indexing, B+ Tree Dynamic Indexing, Query Evaluation & Optimization, Transaction Management (ACID Properties), Schedules, Lock-Based Concurrency Control (2PL, Serializability, Recoverability).
+Textbooks: Ramez Elmasri & Shamkant B. Navathe (7th Ed); Raghu Ramakrishnan & Johannes Gehrke.
