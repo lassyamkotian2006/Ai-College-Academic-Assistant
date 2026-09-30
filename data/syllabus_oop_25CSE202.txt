@@ -1,0 +1,21 @@
+OBJECT ORIENTED PROGRAMMING (Course Code: 25CSE202) - 3rd Sem B.Tech CSE
+Course Type: IPCC | Teaching Hours/Week (L:T:P:J:SL): 3:0:2:0:1 | Credits: 04 | Total Hours: 45:0:30:0:15 | CIE + SEE: 50 + 50
+UNIT-I (9 Hours):
+- Overview of Java: OOP, Two Paradigms, Abstraction, Three OOP Principles.
+- Introducing Classes: Class Fundamentals, Declaring Objects, new keyword, Object Reference Variables, Methods, Constructors, Parameterized Constructors, this Keyword, Instance Variable Hiding.
+- Methods and Classes: Overloading Methods & Constructors, Objects as Parameters, Argument Passing, Returning Objects, Access Control, static, final, Arrays.
+UNIT-II (9 Hours):
+- Inheritance: Basics, using super, Multilevel Hierarchy, Constructor Execution Order, Method Overriding, Dynamic Method Dispatch, Abstract Classes, final with Inheritance.
+- Packages and Interfaces: Packages, Access Protection, Importing Packages, Defining & Implementing Interfaces, Default & static Interface Methods.
+UNIT-III (9 Hours):
+- Exception Handling: Fundamentals, Exception Types, Uncaught Exceptions, try, catch, multiple catch, throw, throws, finally, Built-in & Custom Exceptions.
+- Multi-Threaded Programming: Java thread model, main thread, creating single & multiple threads, Thread priorities, isAlive(), join(), Thread Synchronization.
+UNIT-IV (9 Hours):
+- Type Wrappers & Autoboxing: Character, Boolean, Numeric type wrappers, Autoboxing/Unboxing in methods.
+- Collections Framework: Collection & List interfaces, ArrayList, LinkedList, For-Each iteration.
+- File Handling: Reading and writing Serial Access Files, basic File Methods.
+UNIT-V (9 Hours):
+- Introduction to JavaFX: Application structure (Application, start(), Stage, Scene, Pane), Menus, UI Controls (Label, Button, TextField, ComboBox, CheckBox, Alert), Layouts (VBox, HBox), Event Handling (setOnAction, EventHandler, setOnKeyPressed, setOnMouseClicked).
+LIST OF LAB EXPERIMENTS:
+1. Encapsulation and abstraction. 2. Code reusability through inheritance. 3. Runtime polymorphism. 4. Abstract class and super keyword hierarchy. 5. Multithreaded applications with distinct tasks. 6. Producer-consumer inter-thread communication. 7. JavaFX UI with inputs/dialogs. 8. JavaFX layouts. 9. ArrayList, LinkedList, and HashSet operations. 10. Serial access file handling.
+Textbooks: Herbert Schildt "Java the Complete Reference" (11th Ed); Kishori Sharan "Learn JavaFX 17".

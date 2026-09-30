@@ -1,0 +1,17 @@
+SOFTWARE ENGINEERING AND PROJECT MANAGEMENT (SEPM) - 4th Sem
+1. INTRODUCTION TO SOFTWARE ENGINEERING:
+   - Systematic, disciplined, quantifiable approach to software development, operation, and maintenance.
+   - Core SDLC Phases: Requirement Analysis -> System Design -> Implementation -> Testing -> Deployment -> Maintenance.
+   - ACM/IEEE Code of Ethics: Confidentiality, Intellectual Property Rights, acting in public interest, meeting highest professional standards (PRODUCT principle).
+   - SRS (Software Requirements Specification): Black-box specification stating 'what' the system should do, not 'how'. Properties: Verifiable, Complete, Unambiguous, Traceable. Functional vs Non-Functional requirements.
+2. PROCESS MODELS:
+   - Boehm's Spiral Model (1986): Risk-driven iterative model with 4 quadrants: 1. Objective Setting/Planning, 2. Risk Assessment & Reduction, 3. Engineering & Prototyping, 4. Customer Evaluation. Best for large, high-risk systems.
+   - Rational Unified Process (RUP): Use-case driven, architecture-centric iterative framework with 4 phases: 1. Inception (scope/business case), 2. Elaboration (baseline architecture/risk mitigation), 3. Construction (build system), 4. Transition (deploy to users).
+3. THREE CORE CASE STUDIES:
+   - Insulin Pump Control System: Safety-critical embedded medical system simulating the pancreas. Uses micro-sensor to measure blood conductivity -> controller computes glucose & insulin dose -> sends pulses to pump needle. High-level dependability requirements: availability and accurate dosing.
+   - MHC-PMS (Mental Health Care-Patient Management System): Clinic information system with centralized DB and offline PC sync. Features: 1. Individual care management, 2. Patient monitoring (alerts & tracking 'sectioned' patients), 3. Administrative monthly reporting. Governed by Data Protection & Mental Health laws.
+   - Wilderness Weather Station (WWS): Remote self-contained battery/solar-powered stations communicating via satellite. 3 subsystems: 1. Weather Station System (collects & aggregates parameters), 2. Data Management & Archiving System, 3. Station Maintenance System (remote health monitoring, software updates, power management in high wind).
+4. PROJECT MANAGEMENT & ESTIMATION (UNIT 3):
+   - Pricing factors: Cost estimate uncertainty (contingency), Pricing to win, Contractual terms.
+   - Project Scheduling: Work breakdown, Milestones, Deliverables, Gantt Charts (calendar-based activity allocation).
+   - Estimation Models: Experience-based vs Algorithmic Cost Modeling (COCOMO II - Constructive Cost Model II: Application-composition, Early design, Reuse, Post-architecture models). Scale factors: Precedentedness, Team cohesion, Process maturity.

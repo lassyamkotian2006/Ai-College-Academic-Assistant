@@ -1,0 +1,25 @@
+MICROPROCESSOR AND EMBEDDED SYSTEMS (Course Code: CS3005-1) - 4th Sem
+UNIT 1: INTEL 8086 ARCHITECTURE, ADDRESSING MODES & ALP
+- 8086 Features: 16-bit microprocessor, 20-bit address bus (accesses 2^20 = 1 MB memory), 16-bit data bus, segmented memory (4 active 64KB segments: CS, DS, ES, SS).
+- Architecture: Divided into BIU (Bus Interface Unit - fetches instructions, calculates 20-bit physical address = Segment * 10H + Offset, has 6-byte FIFO instruction queue) and EU (Execution Unit - ALU, General Registers AX, BX, CX, DX, Pointer/Index Registers SP, BP, SI, DI, and 16-bit Flag Register with 9 active flags: OF, DF, IF, TF, SF, ZF, AF, PF, CF).
+- Addressing Modes: Immediate (`MOV AX, 0005H`), Register (`MOV AX, BX`), Direct (`MOV AX, [2500H]`), Register Indirect (`MOV AX, [BX]`), Based-Indexed (`MOV AX, [BX+SI]`), Register Relative (`MOV AX, [BP+100H]`).
+- Assembler Directives: ASSUME (binds logical segment to physical segment register), DB (Define Byte), DW (Define Word), DD (Define Doubleword), DQ (Quadword), DT (Ten Bytes), EQU (Equate constant), EVEN (align on even memory address), PROC/ENDP, SEGMENT/ENDS, OFFSET, EXTRN/PUBLIC, MACRO/ENDM.
+- Key Instructions: MOV, PUSH/POP, XCHG, IN/OUT, XLAT (table lookup), DAA (Decimal Adjust after Addition), AAA (ASCII Adjust after Addition), CBW, CWD, Shift & Rotate (SHL, SHR, SAR, ROL, ROR, RCL, RCR).
+
+UNIT 2: MODULAR PROGRAMMING, INTERRUPTS, ARM7 & ARDUINO EMBEDDED C
+- Procedures vs Macros: Procedures use `CALL` and `RET` (saves memory, uses stack for return address, slower execution due to call overhead); Macros inline code at assembly time (faster execution, takes more memory).
+- BIOS & DOS Interrupts: `INT 21H` (DOS functions: AH=01H read char, AH=02H display char, AH=09H display string, AH=2CH get system time, AH=3CH create file, AH=3DH open file, AH=3FH read file, AH=40H write file), `INT 10H` (Video BIOS: AH=00H set video mode, AH=02H set cursor), `INT 16H` (Keyboard BIOS: AH=00H read key, AH=01H check key buffer).
+- RISC vs CISC: RISC (Reduced Instruction Set, fixed instruction length, single-cycle execution, load-store architecture, many registers, hardwired control) vs CISC (Complex Instruction Set, variable length, multi-cycle, memory-to-memory ops, microprogrammed control).
+- ARM Processor Architecture: 32-bit RISC core, 3-stage pipeline (Fetch, Decode, Execute), 37 total registers (R0-R12 general purpose, R13=SP, R14=LR Link Register, R15=PC Program Counter, CPSR Current Program Status Register with N, Z, C, V flags and mode bits, SPSR Saved PSR).
+- Arduino Due & Embedded C: 32-bit Atmel SAM3X8E ARM Cortex-M3 board, 54 digital I/O pins, 12 analog inputs. Functions: `pinMode(pin, INPUT/OUTPUT)`, `digitalWrite(pin, HIGH/LOW)`, `digitalRead(pin)`, `analogRead(pin)`, `analogWrite(pin, pwm)`, `Serial.begin(9600)`, `Serial.println()`.
+
+UNIT 3: 8086 PIN CONFIGURATION, MIN/MAX MODE, INTERRUPTS & MACHINE CODE
+- Pin Configuration (40-pin DIP): `MN/MX#` pin selects mode (HIGH = Minimum Mode single processor; LOW = Maximum Mode multiprocessor with 8288 Bus Controller).
+- Common Pins: `AD0-AD15` (multiplexed address/data), `ALE` (Address Latch Enable - latches address into 8282), `READY` (synchronizes slow peripherals), `INTR` (maskable interrupt), `NMI` (Non-Maskable Interrupt - Type 2), `RESET`, `BHE#/S7`.
+- Minimum Mode Pins: `HOLD` & `HLDA` (bus request/grant for DMA), `DEN#` (Data Enable for 8286 transceiver), `DT/R#` (Data Transmit/Receive), `M/IO#`, `WR#`, `INTA#`.
+- Maximum Mode Pins: `RQ#/GT0#` & `RQ#/GT1#` (Request/Grant), `LOCK#` (locks bus for multiprocessor), `QS0, QS1` (Queue Status), `S0#, S1#, S2#` (Status signals to 8288).
+- Interrupt Vector Table (IVT): First 1 KB of memory (`00000H` to `003FFH`), stores 256 interrupt vectors (4 bytes each: 2 bytes IP offset + 2 bytes CS segment). Physical address of `INT n` = `n * 4` (e.g., `INT 12H` = `12H * 4 = 00048H`; `INT 08H` = `08H * 4 = 00020H`).
+- Predefined Interrupts: Type 0 (Divide by zero), Type 1 (Single step / Trap), Type 2 (NMI), Type 3 (1-byte Breakpoint `INT 3`), Type 4 (Overflow `INTO`).
+- Hand Coding MOV Instructions (Machine Code Template):
+  Byte 1: `[Opcode (6 bits: 100010 for MOV)] [D bit (1=to REG, 0=from REG)] [W bit (1=16-bit word, 0=8-bit byte)]`
+  Byte 2: `[MOD (2 bits: 11=register, 00=no disp, 01=8-bit disp, 10=16-bit disp)] [REG (3 bits)] [R/M (3 bits)]`.

@@ -1,0 +1,19 @@
+ENGINEERING MATHEMATICS III (MA2003-1) - VECTOR CALCULUS & COMPLEX VARIABLES
+UNIT 1: VECTOR CALCULUS
+- Position Vector: r = xi + yj + zk, |r| = sqrt(x^2 + y^2 + z^2). Velocity v = dr/dt, Acceleration a = d²r/dt².
+- Gradient: grad(φ) = ∇φ = (∂φ/∂x)i + (∂φ/∂y)j + (∂φ/∂z)k. Normal to surface φ(x,y,z)=c. Unit Normal: n̂ = ∇φ / |∇φ|.
+- Directional Derivative of φ along vector a: D = ∇φ · (a / |a|). Maximum directional derivative is |∇φ|.
+- Divergence: div(F) = ∇ · F = ∂F1/∂x + ∂F2/∂y + ∂F3/∂z. If div(F) = 0, F is Solenoidal.
+- Curl: curl(F) = ∇ × F. If curl(F) = 0, F is Irrotational (Conservative), and F = ∇φ (φ is scalar potential).
+- Cylindrical Coordinates (r, θ, z): x = r cosθ, y = r sinθ, z = z. Orthogonal curvilinear system.
+- Spherical Coordinates (r, θ, φ): x = r sinθ cosφ, y = r sinθ sinφ, z = r cosθ.
+- Integral Theorems:
+  1. Green's Theorem: ∮(M dx + N dy) = ∬(∂N/∂x - ∂M/∂y) dx dy
+  2. Stokes' Theorem: ∮ F · dr = ∬ (∇ × F) · n̂ dS
+  3. Gauss Divergence Theorem: ∬ F · n̂ dS = ∭ (∇ · F) dV
+UNIT 2 & 3: COMPLEX VARIABLES
+- Analytic Function f(z) = u(x,y) + i*v(x,y). Cauchy-Riemann (C-R) Equations: ∂u/∂x = ∂v/∂y and ∂u/∂y = -∂v/∂x.
+- Harmonic Function: Satisfies Laplace equation ∂²u/∂x² + ∂²u/∂y² = 0. Milne-Thomson method constructs f(z) from u or v.
+- Bilinear Transformation: w = (az + b)/(cz + d), ad - bc ≠ 0. Preserves cross-ratio.
+- Cauchy's Integral Formula: f(a) = (1 / 2πi) ∮ [f(z)/(z - a)] dz.
+- Cauchy's Residue Theorem: ∮ f(z) dz = 2πi * (Sum of residues inside C).

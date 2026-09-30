@@ -1,0 +1,18 @@
+DESIGN AND ANALYSIS OF ALGORITHMS (DAA) - 4th Sem (Units 1, 2 & 3)
+UNIT 1: INTRODUCTION TO ALGORITHMS
+- Definition: Finite set of unambiguous instructions for solving a problem.
+- 5 Criteria: Input (0 or more), Output (at least 1), Definiteness (clear/unambiguous), Finiteness (terminates), Effectiveness.
+- Problem Solving Steps: Understand problem -> Computational device capabilities (RAM sequential vs parallel) -> Exact vs Approximate -> Data Structures -> Design Technique -> Specify Algorithm -> Prove Correctness -> Analyze (Time/Space, Asymptotic O, Ω, Θ) -> Code.
+UNIT 2: DECREASE AND CONQUER, INSERTION SORT, DFS & BFS
+- Decrease by constant (by 1): Insertion Sort, Topological Sort, DFS, BFS.
+- Decrease by constant factor (by half): Binary Search, Exponentiation by squaring.
+- Variable-size decrease: Euclid's GCD algorithm gcd(m,n) = gcd(n, m mod n).
+- Insertion Sort: Worst case Θ(n²), Average case Θ(n²), Best case (already sorted) Θ(n).
+- Depth-First Search (DFS): Uses Stack (LIFO), tracks Push/Pop order. Complexity: Matrix Θ(|V|²), List Θ(|V|+|E|).
+- Breadth-First Search (BFS): Uses Queue (FIFO), level-by-level concentric traversal. Complexity: Matrix Θ(|V|²), List Θ(|V|+|E|).
+UNIT 3: GREEDY TECHNIQUE, MST & HUFFMAN CODING
+- Greedy Criteria: Feasible, Locally Optimal, Irrevocable.
+- Minimum Spanning Tree (MST): Connected acyclic subgraph connecting all vertices with minimum total edge weight.
+- Prim's Algorithm: Grows a single tree by adding the minimum-weight edge connecting tree vertex to non-tree vertex. Time: O(|V|²) or O(|E| log |V|).
+- Kruskal's Algorithm: Sorts all edges by weight and adds next minimum edge if it doesn't create a cycle. Time: O(|E| log |E|).
+- Huffman Coding: Variable-length prefix-free tree for lossless data compression (smallest two weights merged repeatedly; left=0, right=1).

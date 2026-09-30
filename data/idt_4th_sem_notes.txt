@@ -1,0 +1,20 @@
+INNOVATION AND DESIGN THINKING (IDT) - 4th Sem
+1. Design 360° Thinking Approach (Wallet Reference):
+   - Fact (Preferences: Physical, Material, Weight, Colour, Cost, Brand)
+   - Form (Shape, Size, Texture, Pockets, Pattern)
+   - Function (Main use, when/where used, storage, how carried)
+   - Relationships (What is added/removed daily, what you hate to lose, personality reflection, personalization).
+2. Key Definitions:
+   - Design: Purposeful planning and organizing elements to build something (e.g., ergonomic insulated coffee mug).
+   - Innovation: Applying creativity to improve/modify an existing solution for customer needs (e.g., Smartphones combining phone, camera, computer).
+   - Invention: Creating something completely new from scratch that never existed before (e.g., Aeroplane by Wright brothers, Car by Karl Benz).
+   - Creativity: Ability to generate novel and meaningful ideas and solutions.
+3. 5 Phases of Design Thinking:
+   1. Empathise (Understand customer challenges by putting yourself in their shoes).
+   2. Define (Clearly state user needs and problems).
+   3. Ideate (Brainstorm creative ideas and detailed sketches).
+   4. Prototype (Create a tangible/real model of the planned product).
+   5. Test (Evaluate with customers and refine based on feedback).
+4. Project Management Models:
+   - Agile Model: Iterative and incremental sprints (Brainstorm -> Design -> Development -> QA -> Deployment). Embraces change, continuous customer involvement.
+   - Waterfall Model: Linear and sequential (Requirement Analysis -> System Design -> Implementation -> Testing -> Deployment -> Maintenance). Rigid, customer only involved at start.

@@ -1,0 +1,18 @@
+MATHEMATICS SYLLABUS (3rd & 4th Sem Common for CSE/ISE/CCE/CYB/CBS/AID/AIM/RAI)
+1. III SEMESTER: DISCRETE MATHEMATICAL STRUCTURES (Course Code: 25MAT204)
+Course Type: BSC | L-T-P: 3-1-0 | Credits: 04 | Hours: 45+15+0 | CIE + SEE: 50 + 50
+- UNIT-I (Mathematical Logic - 9+3 Hrs): Propositional Logic, Connectives, Tautology, Contradiction, Propositional Equivalence, Converse, Inverse, Contrapositive, Rules of inference, Validity of arguments, Quantifiers, Proofs (direct, contradiction, contrapositive).
+- UNIT-II (Relations - 9+3 Hrs): Relations & Properties, Equivalence relations, Matrix & Digraph representations, Composition of Relations, Partial Order, Poset, Hasse diagram, Extremal sets, Lattice.
+- UNIT-III (Groups and Coding Theory - 9+3 Hrs): Groups, Subgroups, Cyclic groups, Coset Decomposition, Lagrange's Theorem, Coding Theory, Hamming Metric, Generator Matrix, Parity Check Matrix, Group Codes, Hamming Matrix.
+- UNIT-IV (Combinatorics - 9+3 Hrs): Binomial & Multinomial Theorems, Combinations with Repetition, Catalan numbers, Principle of Inclusion and Exclusion, Derangements, Rook polynomials.
+- UNIT-V (Generating Functions & Recurrence Relations - 9+3 Hrs): Ordinary & Exponential generating functions, Non-negative integer solutions for linear equations, First Order Recurrence relations.
+Textbooks: Kenneth H. Rosen "Discrete Mathematics and its Applications"; Ralph P. Grimaldi.
+
+2. IV SEMESTER: STATISTICS AND PROBABILITY THEORY (Course Code: 25MAT208)
+Course Type: BSC | L-T-P: 3-1-0 | Credits: 04 | Hours: 45+15+0 | CIE + SEE: 50 + 50
+- UNIT-I (Curve Fitting & Regression - 9+3 Hrs): Least square principle, fitting straight lines, polynomials, exponential curves, Correlation, Rank correlation, Linear regression, Angle between regression lines.
+- UNIT-II (Probability Theory - 9+3 Hrs): Sample space, Conditional probability, Independence, Bayes' theorem, 1D discrete & continuous random variables, PDF, CDF, Expectation, Variance, 2D Joint & Marginal distributions, Covariance.
+- UNIT-III (Probability Distributions - 9+3 Hrs): Moment generating functions, Binomial, Poisson, Uniform, Normal, Exponential distributions, Random sample, Central Limit Theorem, Sampling distributions.
+- UNIT-IV (Sampling Distribution & Estimation - 9+3 Hrs): Student's t-distribution, Chi-square distribution, Point & Interval estimation, Confidence intervals, Hypothesis Testing, Null & Alternative hypotheses, Type I & Type II errors, P-values, z-test, t-test, Chi-square goodness of fit.
+- UNIT-V (Stochastic Process - 9+3 Hrs): Stochastic matrices, Stationary process, Autocorrelation, Markov chains, Regular Markov chain, Transition probabilities, Birth-death process, Queuing theory (M/M/1 Model).
+Textbooks: S.C. Gupta & V.K. Kapoor; Paul L. Meyer; Hogg and Craig.

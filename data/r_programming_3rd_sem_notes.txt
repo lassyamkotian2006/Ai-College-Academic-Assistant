@@ -1,0 +1,11 @@
+DATA ANALYSIS USING R PROGRAMMING (Course Code: CS1602-1) - 3rd Sem Lab & Question Bank
+PART A PROGRAMS:
+1. User-defined functions: Check even/odd (`a %% 2 == 0`), print squares (`for(i in 0:n) print(i^2)`), find factors of a number (`if(n %% i == 0)`), sort vectors (`sort(a, decreasing=TRUE/FALSE)`).
+2. Lists: Create list containing a vector, matrix, and nested list; name elements (`names(list_data)`), count objects (`length()`), add/update/remove elements (`list_data[4] <- NULL`), unlist and add vectors (`unlist()`).
+3. Matrices: 3x3 matrix addition (`m1 + m2`), subtraction (`m1 - m2`), transpose product (`m1 %*% t(m1)`), column sum (`colSums()`), row mean (`rowMeans()`), inverse (`solve()`), index of max/min (`which(m == max(m), arr.ind=TRUE)`).
+4. Strings & Factors: Count characters (`nchar()`), uppercase (`toupper()`), palindrome check function (`is_palindrome()`), ordered factor of alternating 1s and 2s labeled "ON" and "OFF".
+5. Charts & Plots: Pie chart (`pie()`, rainbow colors, 3D pie chart using `plotrix::pie3D`), Bar chart (`barplot()`), Line chart (`plot(type="o")`), Histogram (`hist()`), Boxplot & Scatterplot on `mtcars` dataset (`boxplot(mpg ~ cyl)`, `pairs(~wt+mpg+disp+cyl)`).
+6. Central Tendency: Mean (`mean(x, trim=0.3, na.rm=TRUE)`), Median (`median(v)`), Mode user-defined function (`uniqv[which.max(tabulate(match(v, uniqv)))]`).
+PART B DATA FRAMES:
+1. Employee CSV Data Frame: `str()`, add Department with `cbind()`, add rows with `rbind()`, subset IT employees with salary > 600 (`subset(df, Dept=="IT" & Salary>600)`).
+2. Student Marks Data Frame: Merge on Student ID (`merge()`), reshape data using `melt()` and `cast()` from `reshape2` library.

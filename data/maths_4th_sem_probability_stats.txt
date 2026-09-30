@@ -1,0 +1,21 @@
+MATHEMATICS IV SEM (25MAT208 / MA2008-1) - PROBABILITY, DISTRIBUTIONS, SAMPLING & REGRESSION
+1. CURVE FITTING, CORRELATION & REGRESSION:
+- Straight Line (y = a + bx): Σy = na + bΣx, Σxy = aΣx + bΣx².
+- Parabola (y = ax² + bx + c): Σy = aΣx² + bΣx + nc, Σxy = aΣx³ + bΣx² + cΣx, Σx²y = aΣx⁴ + bΣx³ + cΣx².
+- Correlation Coefficient (r): r = Cov(X,Y)/(σx * σy), -1 ≤ r ≤ 1.
+- Regression Lines: Y on X is (y - ȳ) = byx(x - x̄); X on Y is (x - x̄) = bxy(y - ȳ). r = ±sqrt(byx * bxy).
+2. PROBABILITY, BAYES THEOREM & RANDOM VARIABLES (1D & 2D):
+- Addition Rule: P(A U B) = P(A) + P(B) - P(A ∩ B). Conditional Probability: P(A|B) = P(A ∩ B)/P(B).
+- Law of Total Probability: P(A) = Σ P(Ai)P(A|Ai).
+- Bayes' Theorem: P(Ai|A) = [P(Ai)P(A|Ai)] / [Σ P(Ak)P(A|Ak)].
+- Discrete RV: Σ p(xi) = 1, Mean E(X) = Σ xi*p(xi), Variance V(X) = E(X²) - [E(X)]².
+- Continuous RV: ∫ f(x)dx = 1, E(X) = ∫ x*f(x)dx, CDF F(x) = P(X ≤ x) = ∫_{-∞}^x f(t)dt.
+- Properties: E(aX+b) = aE(X)+b, V(aX+b) = a²V(X).
+- 2D RV: Marginal g(x) = ∫f(x,y)dy, h(y) = ∫f(x,y)dx. Independent iff f(x,y) = g(x)h(y) and E(XY) = E(X)E(Y).
+3. DISTRIBUTIONS, SAMPLING & HYPOTHESIS TESTING:
+- Binomial Distribution: P(X=x) = nCx * p^x * q^(n-x), Mean = np, Variance = npq.
+- Poisson Distribution: P(X=x) = (e^(-λ) * λ^x)/x!, Mean = λ, Variance = λ.
+- Standard Error: SE = σ / sqrt(n). Sample Mean x̄ = Σxi/n, Sample Variance s² = Σ(xi - x̄)²/(n-1).
+- Null Hypothesis (H0): Hypothesis of no difference. Alternative Hypothesis (H1): Complementary to H0.
+- Type I Error (α): Rejecting H0 when H0 is true (Producer's risk). Type II Error (β): Accepting H0 when H0 is false (Consumer's risk).
+- Central Limit Theorem (CLT): Sample mean distribution approaches Normal distribution as n becomes large.

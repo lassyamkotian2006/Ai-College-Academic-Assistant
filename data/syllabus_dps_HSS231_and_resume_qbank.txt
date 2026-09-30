@@ -1,0 +1,7 @@
+DEVELOPING PROFESSIONAL SKILLS (Course Code: HSS231 / HU2002-1) - 3rd Sem
+Course Type: AEC | Credits: 02 | Hours: 30 | CIE + SEE: 50 + 50
+- UNIT-I: Understanding Personality (4 Hrs): 16 MBTI personality types, self-assessment. Campus Placement First Impressions (9 Hrs): Crafting tailored resumes, cover letters, portfolios, self-introduction strategies.
+- UNIT-II: Personal Branding & Professional Image (5 Hrs): Online presence via LinkedIn and GitHub. Interviews & Group Discussions (5 Hrs): Interview formats, handling tough questions, GD Do's and Don'ts.
+- UNIT-III: Goal Setting & Work Ethics (6 Hrs): Work ethics, professionalism, setting SMART (Specific, Measurable, Achievable, Relevant, Time-bound) goals.
+DPS RESUME QUESTION BANK (27 Role Prompts):
+Includes drafting resumes for: Software Development Intern at tech startup (IT), Civil Engineering Intern (CV), Mechanical Automotive Intern (MECH), QA Software Tester (IT), Electrical Circuit Design Intern (EEE), University IT Support Technician (IT), CAD Drafter (CV), Robotics Club Competitor (RI), Web Developer Intern (IT), Financial Data Analyst Intern (IT/AIDS), Product Design Intern (EEE), Network Engineering Intern (CCE), Materials Science Intern (MECH), Biotechnology & Bioinformatics Intern (BT), Data Science & ML Intern (AIDS), Cybersecurity & Penetration Testing Intern with CEH (CB), AI & Robotics Developer (RI).
